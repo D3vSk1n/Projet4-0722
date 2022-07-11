@@ -641,10 +641,6 @@ a[data-lightbox]:hover img {
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6,
 p,
 label,
 .btn,
@@ -685,9 +681,10 @@ p {
     margin: auto auto auto auto;
 }
 
-.h1 {
+h1 {
     font-size: 20px;
     font-family: "Open Sans";
+    color: #333333!important;
 }
 
 .cta-hero {
@@ -704,12 +701,12 @@ p {
     margin: auto auto auto auto;
 }
 
-h2 {
+.para {
     font-size: 22px;
     line-height: 1.4em;
 }
 
-h3 {
+h2 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
@@ -720,14 +717,6 @@ h3 {
     max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
-}
-
-h1 {
-    color: #333333!important;
-}
-
-h4 {
-    color: #333333!important;
 }
 
 .icons {
@@ -822,7 +811,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -896,10 +885,6 @@ h4 {
     }
     h1,
     h2,
-    h3,
-    h4,
-    h5,
-    h6,
     p,
     #disqus_thread {
         padding-left: 10px!important;
